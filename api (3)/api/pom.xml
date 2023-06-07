@@ -20,7 +20,8 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+            <version>3.1.0</version>
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,7 +38,8 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+            <version>3.1.0</version>
+            <scope>test</scope>
 		</dependency>
 
 		<dependency>
@@ -51,11 +53,13 @@
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
-		</dependency>
+            <version>9.16.0</version>
+        </dependency>
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-mysql</artifactId>
-		</dependency>
+            <version>9.16.0</version>
+        </dependency>
 
 		<dependency>
 			<groupId>com.mysql</groupId>
@@ -65,13 +69,13 @@
 		<dependency>
 			<groupId>org.jetbrains</groupId>
 			<artifactId>annotations</artifactId>
-			<version>RELEASE</version>
+			<version>24.0.1</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jetbrains</groupId>
 			<artifactId>annotations</artifactId>
-			<version>RELEASE</version>
+			<version>24.0.1</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
